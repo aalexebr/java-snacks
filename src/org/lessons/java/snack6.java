@@ -10,7 +10,7 @@ public class snack6 {
 			char c = numberAsString.charAt(x);
 			int digit = 0;
 
-//			System.out.println(c);
+
 			if(c == '0') {
 				digit = 0;
 			}
@@ -41,7 +41,6 @@ public class snack6 {
 			if(c == '9') {
 				digit = 9;
 			}
-//			System.out.println(n);
 			n+=(digit*power);
 			power *= 10;
 			
