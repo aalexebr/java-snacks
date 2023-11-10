@@ -27,7 +27,7 @@ public class snack8 {
 			}
 			
 		}
-		String x = new String(newString);
-		System.out.println(x);
+		String str = new String(newString);
+		System.out.println(str);
 	}
 }
