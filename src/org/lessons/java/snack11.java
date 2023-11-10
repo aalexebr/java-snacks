@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class snack11 {
 	public static void main(String[] args) {
-		Random rnd = new Random(100);
+		Random rnd = new Random();
 		final int ARRAY_LENGTH = 5;
 		int[] array = new int[ARRAY_LENGTH];
 		
