@@ -5,7 +5,7 @@ package org.lessons.java;
 public class snack7 {
 	public static void main(String[] args) {
 		final int BASE_DIVIDOR = 60;
-		int number = 13541;
+		int number = 997401;
 		int seconds;
 		int minutes;
 		int hours;
@@ -20,8 +20,8 @@ public class snack7 {
 		
 		System.out.println(number+" converted in time: "+hours+":"+minutes+":"+seconds);
 		
-		System.out.println("hrs:"+hours);
-		System.out.println("min:"+minutes);
-		System.out.println("secs:"+seconds);
+//		System.out.println("hrs:"+hours);
+//		System.out.println("min:"+minutes);
+//		System.out.println("secs:"+seconds);
 	}
 }
