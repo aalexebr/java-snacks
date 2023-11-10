@@ -9,17 +9,17 @@ public class snack8 {
 		System.out.print("input string:");
 		
 		String userString = in.nextLine();
-		int length = userString.length();
+//		int length = userString.length();
 		in.close();
 		String newStr = userString.replace('a', 'o');
-		for(int x=0; x<length; x++) {
-			char c = userString.charAt(x);
-//			System.out.println(c);
-			if(c == 'a') {
-				
-			}
-			
-		}
+//		for(int x=0; x<length; x++) {
+//			char c = userString.charAt(x);
+////			System.out.println(c);
+//			if(c == 'a') {
+//				
+//			}
+//			
+//		}
 		System.out.println(newStr);
 	}
 }
