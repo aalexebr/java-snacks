@@ -24,6 +24,7 @@ public class snack2 {
 			int nameKey = rnd.nextInt(0,arrLength);
 			int surnameKey = rnd.nextInt(0,arrLength);
 			completeNames[x] = nomi[nameKey]+" "+cognomi[surnameKey];
+			
 			System.out.println(completeNames[x]);
 		}
 	}

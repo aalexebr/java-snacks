@@ -3,7 +3,7 @@ package org.lessons.java;
 public class snack6 {
 	public static void main(String[] args) {
 		
-		String numberAsString = "123456789";
+		String numberAsString = "120099999";
 		int n = 0;
 		int power = 1;
 		for(int x = (numberAsString.length()-1); x >=0; x--) {

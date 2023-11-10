@@ -15,7 +15,7 @@ public class snack3 {
 			
 			int newNumber = rnd.nextInt(0,100);
 			arrayOfNumbers[x] = newNumber;
-//			System.out.println("number "+x+"value"+newNumber);
+			System.out.println("number "+x+"value"+newNumber);
 		}
 		
 		int sumOdd = 0;
