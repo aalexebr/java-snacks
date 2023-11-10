@@ -11,34 +11,42 @@ public class snack4 {
 		System.out.print("give me a word: ");
 		
 		String userWord = in.nextLine();
-		in.close();
+		
 		
 		int wordLength = userWord.length();
 		
-		char[] arr = new char[wordLength];
-		for(int x= 0; x<wordLength; x++) {
-			char c = userWord.charAt(x);
-//			System.out.println(c);
-			arr[x] = c;
-		}
+//		char[] arr = new char[wordLength];
+		int z = wordLength-1;
 		
-		
-		char[] invertedArr = new char[wordLength];
-		int var = 0;
-		for(int x= (wordLength-1); x>=0; x--) {
-			char n = arr[x];
-		
-			invertedArr[var]= n;
-			var++;
-			
-		}
 		boolean flag = false;
 		for(int x= 0; x<wordLength; x++) {
-			if(arr[x] == invertedArr[x]) {
+			char c = userWord.charAt(x);
+			char s = userWord.charAt(z);
+			z--;
+			if (c == s) {
 				flag = true;
 			}
-				
+			
+//			arr[x] = c;
 		}
+		
+		
+//		char[] invertedArr = new char[wordLength];
+//		int var = 0;
+//		for(int x= (wordLength-1); x>=0; x--) {
+//			char n = arr[x];
+//		
+//			invertedArr[var]= n;
+//			var++;
+//			
+//		}
+//		
+//		for(int x= 0; x<wordLength; x++) {
+//			if(arr[x] == invertedArr[x]) {
+//				flag = true;
+//			}
+//				
+//		}
 		
 		if(flag) {
 			System.out.println("palindrome");
