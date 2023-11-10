@@ -15,10 +15,22 @@ public class snack10 {
 		int num1 = Integer.valueOf(strNumber1);
 		int num2 = Integer.valueOf(strNumber2);
 		int count = 0;
-		for(int x = num1; x<=num2; x++) {
-//			System.out.println(count);
-			count+=x;
+		if(num1<num2) {
+			for(int x = num1; x<=num2; x++) {
+	//			System.out.println(count);
+				count+=x;
+			}	
 		}
+		else if(num1>num2) {
+			for(int x = num2; x<=num1; x++) {
+	//			System.out.println(count);
+				count+=x;
+			}
+		}
+		else {
+			count = num1 + num2;
+		}
+		
 		System.out.println(count);
 	}
 }
