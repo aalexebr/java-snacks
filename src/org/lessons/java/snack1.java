@@ -13,10 +13,10 @@ public class snack1 {
 		int userNumber = Integer.valueOf(userInput+"");
 		
 		if(userNumber % 2 == 0) {
-			System.out.print("print number is even so next numb is: "+(userNumber+1));
+			System.out.print("print number is even so next numb is: "+userNumber);
 		}
 		else {
-			System.out.print("print number: "+userNumber);
+			System.out.print("print number: "+(userNumber+1));
 		}
 		
 	}
