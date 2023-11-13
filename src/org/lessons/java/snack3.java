@@ -6,7 +6,7 @@ public class snack3 {
 	public static void main(String[] args) {
 //		System.out.println("test");
 		
-		Random rnd = new Random();
+		Random rnd = new Random(1);
 		final int ARRAY_LENGTH = 10;
 		
 		int[] arrayOfNumbers = new int[ARRAY_LENGTH];
@@ -19,10 +19,10 @@ public class snack3 {
 		}
 		
 		int sumOdd = 0;
-		for(int x=0; x<ARRAY_LENGTH; x++) {
-			if(x%2 != 0) {
+		for(int x=1; x<ARRAY_LENGTH; x+=2) {
+			
 				sumOdd += arrayOfNumbers[x];
-			}
+			
 		}
 		System.out.println("sum "+sumOdd);
 		

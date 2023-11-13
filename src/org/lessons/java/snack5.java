@@ -44,7 +44,7 @@ public class snack5 {
 						+" special: "+specialChar
 						+" flag: "+flag);
 			
-		}while(flag == false);
+		}while(!flag);
 		
 		
 		in.close();
